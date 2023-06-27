@@ -1,0 +1,38 @@
+.text-center{
+    text-align: center;
+}
+
+.container{
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+.row input{
+    width: 279px;
+    font-size: 20px;
+      margin: 0;
+      padding: 10px 0px;
+      border: 2px solid black;
+      border-radius: 5px;
+  }
+.btn{
+    width: 66px;
+    padding: 20px;
+    margin: 2px 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+.operation{
+    background-color: grey;
+}
+.equals{
+    background-color: #aecbfa;
+}
